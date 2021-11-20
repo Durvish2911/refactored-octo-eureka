@@ -1,0 +1,39 @@
+<!--created by prashant shukla-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ping Pong</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+
+    </head>
+    <body background="background1.jpg">
+        <h3>this is an A.I mario game
+            <button type="button" id="btb" data-toggle="modal" data-target="#modaler">instructions</button>
+        </h3>
+         <button type="button" id="gunne" class="btn btn-primary" onclick="play()">play game</button>
+         <h3></h3>
+         <div id="canvas"></div>
+         <div id="modaler" class="modal fade">
+          <div class="modal-dialog">
+              <div class="model-content">
+               <div class="modal-header">
+                   <h3>instructions</h3>
+                   <button type="button" class="close" data-dismiss="modal">&times;</button>
+               </div>
+               <div class="modal-body">
+                   <h4>to move the paddel you have to use your right wrist if you move your right wrist up the paddle will move down if you do down it will go up if you do right it will got left it you do left it will go right</h4>
+               </div>
+              </div>
+          </div>
+         </div>
+        <script src="main.js"></script>
+    </body>
+</html>
