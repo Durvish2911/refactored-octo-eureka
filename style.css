@@ -12,3 +12,12 @@ h3{
 #btb{
     background-color: navy;
 }
+.copy_right_footer{
+    bottom: 0%;
+    position: fixed;
+    background-color: gray;
+    color: white;
+    line-height: 3;
+    width: 100%;
+    text-align: center;
+}
